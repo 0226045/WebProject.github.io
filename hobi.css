@@ -1,0 +1,112 @@
+#page{
+    width:1740px;
+    margin:auto;
+    position:relative;
+}
+body{
+    background:url("images/background.jpg") no-repeat fixed center;
+    background-size:cover;
+    width:100%;
+}
+header ul{
+    padding-top:30px;
+    width:800px;
+    margin-left:974.5px;
+    list-style-type:none;
+    height:40px;
+}
+header ul li{
+    width:180px;
+    text-align:center;
+    background-color:white;
+    border-right:2px solid black;
+    float:left;
+    margin:auto;
+}
+header ul li:last-child{
+    border-right:0px;
+}
+header ul li:hover{
+    background-color:#1f3233;
+    opacity:.7;
+}
+header ul li:hover a{
+    color:white;
+}
+header ul li a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:40px;
+    width:180px;
+    font-size:16px;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#0b191a;
+}
+  #body{
+      position:relative;
+      margin-top:-1000px;
+      width:1740px;
+      height:2000px;
+      margin:auto;
+  }
+  header{
+      width:1800px;
+  }
+  #background2{
+      margin:auto;
+      position:absolute;
+      background-color:white;
+      opacity:.8;
+      width:1740px;
+      height:1000px;
+  }
+  #container{
+      width:1750px;
+      height:1500px;
+      margin:auto;
+  }
+  #body .box2{
+      padding-left:150px;
+      height:420px;
+      float:left;
+  }
+  #body .box2 img{
+      height:400px;
+      width:300px;
+      float:left;
+  }
+  #body .box2{
+      padding-top:60px;
+      padding-left:20px;
+  }
+  #body p{
+  background-color:white;
+  opacity:.9
+  color:black;
+    position:absolute;
+    height:350px;
+    width:530px;
+    margin-top:300px;
+    margin-left:620px;
+    justify-content:center;
+    display:flex;
+    text-align:center;
+    align-items:center;
+  }
+  #container2{
+       width:700px;
+       height:1000px;
+       float:left;
+   }
+   .first,.third{
+        margin-left:200px;
+        padding-right:200px;
+   }
+   .second, .box22{
+      margin-left:500px;
+      float:right;
+      width:300px;
+   }
+
